@@ -21,7 +21,7 @@ let handler = async (m, { conn, args }) => {
         '-font',
         fontPath,
         '-size',
-        '1024x784',
+        '1024x648',
         '-pointsize',
         '20',
         '-interline-spacing',

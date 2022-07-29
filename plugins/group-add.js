@@ -36,7 +36,7 @@ let handler = async (m, { conn, text, participants }) => {
         const content = getBinaryNodeChild(user, 'add_request')
         const invite_code = content.attrs.code
         const invite_code_exp = content.attrs.expiration
-        let teks = `ᴍᴇɴɢᴜɴᴅᴀɴɢ 👤@${jid.split('@')[0]} ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ 📥ɪɴᴠɪᴛᴇ...`
+        let teks = `Mengundang @${jid.split('@')[0]} menggunakan invite...`
         m.reply(teks, null, {
             mentions: conn.parseMention(teks)
         })
@@ -47,9 +47,12 @@ handler.help = ['add', '+'].map(v => v + ' @user')
 handler.tags = ['group']
 handler.command = /^(add|\+)$/i
 
-handler.admin = true
-handler.group = true
 handler.botAdmin = true
-handler.owner = false
+handler.group = true
+handler.private = false
+
+handler.admin = true
+
 
 export default handler
+
