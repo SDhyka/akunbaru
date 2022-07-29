@@ -46,30 +46,30 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/AryBotz'
-global.sgh = 'https://github.com/arybotz'
-global.sgc = 'https://chat.whatsapp.com/JWMl9LW5g0i0RSj7ophXAk'
-global.sdc = 'https://github.com/arybotz'
-global.snh = 'https://youtube.com/c/AryBotz'
+global.sig = 'https://instagram.com/dhykkkz'
+global.sgh = 'https://github.com/SDhyka'
+global.sgc = 'https://chat.whatsapp.com/DejlGcDRaJj3xCIaZJGUnP'
+global.sdc = '-'
+global.snh = 'https://youtube.com/c/BangSkot'
 
 /*============== PAYMENT ==============*/
-global.pdana = '085762008398'
-global.povo = 'Gaada bang :v'
-global.pgopay = 'Gaada bang :v'
-global.ppulsa = '085762008398'
-global.ppulsa2 = '085762008398'
-global.psaweria = 'https://saweria.co/arybotz'
+global.pdana = '081384200380'
+global.povo = '081384200380'
+global.pgopay = '081384200380'
+global.ppulsa = '081384200380'
+global.ppulsa2 = '081384200380'
+global.psaweria = 'https://saweria.co/HyDhyka'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285763050960'
-global.nomorown = '994408465157'
-global.namebot = 'AryBotz Ofc'
-global.nameown = 'X Ary Offcial'
+global.nomorbot = '62813842003802'
+global.nomorown = '6281384200380'
+global.namebot = 'Cyraa MD 💓'
+global.nameown = 'Dhyka OFC'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281264038909', 'X Ary Offcial', true]
+  ['6281384200380', 'Owner : Dhyka OFC 🚀', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -114,19 +114,19 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '「 AryBotz |Ary Offcial⁩ 」' //Main Watermark
-global.wm2 = '    乂 Ary Botz 乂     '
-global.wm3 = 'Ary Botz |ᗪ'
+global.wm = '「 Cyraa | Dhykaa」' //Main Watermark
+global.wm2 = '    乂 Cyraa BOT MD 乂     '
+global.wm3 = 'Cyraa BOT |ᗪ'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = 'AryBotz-MD✯✯✯✯✯ '
+global.titlebot = 'Cyraa-MD✯✯✯✯✯ '
 global.author = global.wm
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/2d8e3c1c1267adcd591b5.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/2d8e3c1c1267adcd591b5.jpg'
-global.thumbbc = 'https://telegra.ph/file/2d8e3c1c1267adcd591b5.jpg' //For broadcast
+global.thumb = 'https://i.ibb.co/RyhLvDR/20220725-175424.png' //Main Thumbnail
+global.thumb2 = 'https://i.ibb.co/RyhLvDR/20220725-175424.png'
+global.thumbbc = 'https://i.ibb.co/RyhLvDR/20220725-175424.png' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
@@ -151,15 +151,15 @@ global.fpagedoc = '999'
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
 global.dmenut = '    ➪' //top
-global.dmenub = '🌎 ' //body
-global.dmenub2 = '🌎 ' //body for info cmd on Default menu
+global.dmenub = '🌏 ' //body
+global.dmenub2 = '🌿🌏 ' //body for info cmd on Default menu
 global.dmenuf = '\n' //footer
 
 // COMMAND MENUFonts for Android and iPhone  - www.fontskeyboard.com/share-now
 global.dashmenu = '「▰▰▰▱▱▱▱▱▱▱」'
 global.cmenut = '       『'                       //top
 global.cmenuh = '』'                        //header
-global.cmenub = '🚀 '                            //body
+global.cmenub = '❐🌌 '                            //body
 global.cmenuf = '\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '➪'                              //pembatas menu selector
@@ -173,7 +173,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '\n'
-global.stickauth = `乂 YT:AryBotz.|ᗪ \nig AryBotz.id`
+global.stickauth = '乂 YT:AryBotz.|ᗪ \nig AryBotz.id'
 
 global.multiplier = 38 // The higher, The harder levelup
 
