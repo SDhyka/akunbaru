@@ -83,15 +83,15 @@ const listMessage = {
       }
       chat.delete = !isEnable
       break
-    // case 'autodelvn':
-    //   if (m.isGroup) {
-    //     if (!(isAdmin || isOwner)) {
-    //       global.dfail('admin', m, conn)
-    //       throw false
-    //     }
-    //   }
-    //   chat.autodelvn = isEnable
-    //   break
+      case 'autodelvn':
+        if (m.isGroup) {
+          if (!(isAdmin || isOwner)) {
+            global.dfail('admin', m, conn)
+            throw false
+          }
+        }
+        chat.autodelvn = isEnable
+        break
      case 'document':
        chat.useDocument = isEnable
        break
@@ -135,40 +135,40 @@ const listMessage = {
         }}
       chat.premnsfw = isEnable
       break
-    // case 'toxic':
-    //   if (m.isGroup) {
-    //     if (!(isAdmin || isOwner)) {
-    //       global.dfail('admin', m, conn)
-    //       throw false
-    //     }
-    //   }
-    //   chat.antiToxic = !isEnable
-    //   break
-    // case 'antitoxic':
-    //   if (m.isGroup) {
-    //     if (!(isAdmin || isOwner)) {
-    //       global.dfail('admin', m, conn)
-    //       throw false
-    //     }
-    //   }
-    //   chat.antiToxic = isEnable
-    //   break
-    // case 'autolevelup':
-    //   isUser = true
-    //   user.autolevelup = isEnable
-    //   break
-    // case 'mycontact':
-    // case 'mycontacts':
-    // case 'whitelistcontact':
-    // case 'whitelistcontacts':
-    // case 'whitelistmycontact':
-    // case 'whitelistmycontacts':
-    //   if (!isOwner) {
-    //     global.dfail('owner', m, conn)
-    //     throw false
-    //   }
-    //   conn.callWhitelistMode = isEnable
-    //   break
+      case 'toxic':
+        if (m.isGroup) {
+          if (!(isAdmin || isOwner)) {
+            global.dfail('admin', m, conn)
+            throw false
+          }
+        }
+        chat.antiToxic = !isEnable
+        break
+      case 'antitoxic':
+        if (m.isGroup) {
+          if (!(isAdmin || isOwner)) {
+            global.dfail('admin', m, conn)
+            throw false
+          }
+        }
+        chat.antiToxic = isEnable
+        break
+      case 'autolevelup':
+        isUser = true
+        user.autolevelup = isEnable
+        break
+      case 'mycontact':
+      case 'mycontacts':
+      case 'whitelistcontact':
+      case 'whitelistcontacts':
+      case 'whitelistmycontact':
+      case 'whitelistmycontacts':
+        if (!isOwner) {
+          global.dfail('owner', m, conn)
+          throw false
+        }
+        conn.callWhitelistMode = isEnable
+        break
     case 'restrict':
       isAll = true
       if (!isOwner) {
