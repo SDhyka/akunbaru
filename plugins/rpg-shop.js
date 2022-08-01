@@ -23,6 +23,9 @@ const items = {
         },
         legendary: {
             money: 15000
+        },
+        diamond: {
+            money: 50000
         }
     },
     sell: {
@@ -30,7 +33,7 @@ const items = {
             money: 125,
         },
         trash: {
-            money: 2
+            money: 100
         },
         wood: {
             money: 600
