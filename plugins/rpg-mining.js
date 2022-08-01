@@ -45,6 +45,7 @@ function reward(user = {}) {
             rock: 30,
             iron: 25,
             diamond: 10,
+            diamond: 20,
             emerald: 4,
             common: 2 * (user.dog && (user.dog > 2 ? 2 : user.dog) * 1.2 || 1),
             uncommon: [0, 0, 0, 1, 0].concat(
