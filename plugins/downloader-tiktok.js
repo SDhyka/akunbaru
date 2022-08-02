@@ -12,8 +12,8 @@ url, '🌎 s ᴏ ᴜ ʀ ᴄ ᴇ', null,null, [
 [null,null],
 [null,null]], m)
 }
-handler.help = ['tiktok', 'tiktok', 't', 'tiktokdl'].map(v => v + ' <url>')
+handler.help = ['tiktok', 'toktok', 'ttdl', 'tiktokdl'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^t|(tik(tok)?(tok)?(dl)?)$/i
+handler.command = /^ttdl|(tik(tok)?(tok)?(dl)?)$/i
 
 export default handler
