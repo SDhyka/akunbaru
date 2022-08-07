@@ -683,12 +683,12 @@ export async function participantsUpdate({ id, participants, action }) {
                         pp = await this.profilePictureUrl(user, 'image')
                     } catch (e) {
                     } finally {
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('Patuhi Deks Ya :D', groupMetadata.desc?.toString() || 'unknow') :
+                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('Patuhi Deks Ya :D', () || 'unknow') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user))
                         //this.sendFile(id, pp, 'pp.jpg', text, null, false, { mentions: [user] })
     this.sendHydrated(id, text, wm + '\n\n' + botdate, pp, sgc, (action == 'add' ? '💌 WELCOME' : '👋🏻 SAYONARA'), user.split`@`[0], '🌹 USER', [
       ['ᴍᴇɴᴜ', '/menu'],
-      [(action == 'add' ? 'Thx bot' : '\n\nNitip sendal'), '...'],
+      [(action == 'add' ? 'Mksi Bot' : '\n\nNitip sendal'), '...'],
       [null, null]
     ], null, false, { mentions: [user] })
                     }
