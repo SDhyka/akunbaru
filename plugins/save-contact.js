@@ -14,6 +14,6 @@ handler.tags = ['']
 
 handler.command = /^save$/
 
-handler.owner = true
+handler.owner = false
 
 export default handler

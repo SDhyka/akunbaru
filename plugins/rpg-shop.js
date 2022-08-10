@@ -7,7 +7,7 @@ const items = {
             money: 1250,
         },
         trash: {
-            money: 4,
+            money: 5,
         },
         wood: {
             money: 700
@@ -33,7 +33,7 @@ const items = {
             money: 125,
         },
         trash: {
-            money: 100
+            money: 5
         },
         wood: {
             money: 600
