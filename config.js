@@ -61,8 +61,11 @@ global.ppulsa2 = '081384200380'
 global.psaweria = 'https://saweria.co/HyDhyka'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62813842003802'
+global.nomorbot = '628385834766'
 global.nomorown = '6281384200380'
+global.nomoradmin = ''
+global.nomoradmin2 = ''
+global.nomoradmin3 = ''
 global.namebot = 'Cyraa MD 💓'
 global.nameown = 'Dhyka OFC'
 
@@ -173,7 +176,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '\n'
-global.stickauth = '乂 BOT:Cyrabot | IG : dhykkkz.|ᗪ \nApa Nyolong²?'
+global.stickauth = '乂 Cyra Md'
 
 global.multiplier = 38 // The higher, The harder levelup
 
